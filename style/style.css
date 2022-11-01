@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#table{
+    margin-top: 50px;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+    justify-content: space-around;
+}
+
+table td{
+    border: 1px solid black;
+}
+
+main section input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+td{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#form{
+    border: 1px black solid;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.info  input{
+    padding: 20px;
+
+}
+
+#btnGuardar{
+    padding: 20px;
+}
+

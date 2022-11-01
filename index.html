@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./style/style.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora Notas</title>
+</head>
+<body>
+
+  <main class="main">
+    <section id="form">
+        <h1 class="titulo">Formulario</h1>
+        <form id="formulario">
+        <section class="info">
+            <input class="form_item" name="nombre" id="nombre" type="text" placeholder="Nombre">
+        </section>
+        <section class="info">
+            <input class="form_item" name="correo" id="correo" type="text" placeholder="correo">
+        </section>
+        <section class="info">
+            <input class="form_item" name="telefono" id="telefono" type="text" placeholder="Teléfono">
+        </section>
+        <section class="info">
+            <input class="form_item" name="fecha" id="fecha" type="date" placeholder="Fecha de Nacimiento">
+        </section>
+        
+        <section class="info-botones">
+            <input id="btnGuardar" type="submit" value="Guardar">  
+        </section>
+        </form>
+        <label id="resultado" for=""></label>
+    </section>
+
+    <section id="table">
+        <table id="table1">
+            <thead>
+                <td>Nombre</td>
+                <td>Correo</td>
+                <td>Teléfono</td>
+                <td>Fecha de nacimiento</td>
+            </thead>
+
+
+        </table>
+
+
+
+
+    </section>
+    
+  </main>
+  
+  <script src="./js/main.js"></script>
+</body>
+</html>
